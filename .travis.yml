@@ -5,7 +5,7 @@ node_js:
 script: echo hello
 deploy:
   provider: lambda
-  function_name: "archimedesfeeder"
+  function_name: "archimedesfeeder2"
   region: eu-central-1
   role: "arn:aws:iam::574585068061:role/service-role/feeder-role"
   runtime: "nodejs6.10"
