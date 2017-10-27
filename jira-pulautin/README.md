@@ -15,4 +15,6 @@ node runlocal.js
 
 # lambda
 
-zippaa ja tiputa konsoliin lambdana
+zippaa ja tiputa konsoliin lambdana tai
+
+"aws lambda update-function-code --function-name=archimedesfeeder --zip-file fileb://name-of-the-zip"
